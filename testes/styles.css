@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#openModalButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#kuromiImage {
+    width: 100px;
+    height: auto;
+}
+
+.modal {
+    display: none; /* Oculta a modal inicialmente */
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 600px; 
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Skill Bars */
+.skill-bars {
+    display: none; /* Oculta as skill bars inicialmente */
+}
+
+.skill-bar {
+    margin: 20px 0;
+}
+
+.skill-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    width: 100%;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 0.3s;
+}
+
+.charm {
+    background-color: #ff69b4; /* Rosa */
+}
+
+.cuteness {
+    background-color: #ffcccb; /* Rosa claro */
+}
+
+.joy {
+    background-color: #87ceeb; /* Azul claro */
+}

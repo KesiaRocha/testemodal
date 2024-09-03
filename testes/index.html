@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janela Modal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="openModalButton">
+        <img src="/images/kuromi.png" alt="Kuromi" id="kuromiImage">
+    </button>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModalButton" class="close">&times;</span>
+            <img src="/images/kuromi2.png" alt="Kuromi2" class="modal-image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            <p>Phasellus dignissim augue at ipsum fermentum, nec malesuada urna aliquam.</p>
+            <p>Curabitur vel dolor in urna dapibus scelerisque non ut lorem. Morbi at ligula ac neque varius tempor.</p>
+            
+            <!-- Skill Bars -->
+            <div id="skillBars" class="skill-bars">
+                <div class="skill-bar">
+                    <div class="skill-label">Charme</div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill charm" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-label">Fofura</div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill cuteness" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-label">Alegria</div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill joy" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
